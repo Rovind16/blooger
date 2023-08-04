@@ -26,7 +26,7 @@ require("./blogDetails");
 
 //sendEmail
 
-const apiKey = "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";
+const apiKey = "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";
 const defaultClient = SibApiV3Sdk.ApiClient.instance;
 defaultClient.authentications['api-key'].apiKey = apiKey;
 const sendinBlue = new SibApiV3Sdk.TransactionalEmailsApi(defaultClient);
